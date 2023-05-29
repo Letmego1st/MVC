@@ -98,24 +98,21 @@ To view this project deployed, click here.
 
 
 Usage
+
 After following the instructions in installation:
 
-Open the database file in your terminal.
-Run command "mysql -uroot -p" and enter your password (note: keystrokes will not show).
-Run command "SOURCE schema.sql" to set up the database and tables.
-Optionally, run command "npm run resetdb" to replace steps 2 and 3 (enter password when prompted).
-OK to 'quit' MySql.
-Create a file called ".env" in the root folder of the program. In this folder include the following information:
-DB_NAME=''
-DB_USER=''
-DB_PW=''
-DB_SESSION_SECRET=''
-Open the "server.js" file in your integrated terminal.
-Run command "npm run seed" (or "node seeds/index.js") to seed the database if desired.
-Run command "npm run start" (or "node server.js"). Alternatively, if you have Nodemon installed, run "npm run watch" (or "nodemon server.js").
-Open 'localhost:3001' in your browser and see the site in action.
-Enter login/logout/signup requests as you please, create a new blog post or update/delete an existing one, or add comments to blog posts.
-When finished, run CONTROL-C in terminal to end stop nodemon, and trash the session.
+* Open the database file in your terminal.
+* Run command "mysql -uroot -p" and enter your password (note: keystrokes will not show).
+* Run command "SOURCE schema.sql" to set up the database and tables.
+* OK to 'quit' MySql.
+* Open the "server.js" file in your integrated terminal.
+* Run command "npm run seed" (or "node seeds/index.js") to seed the database if desired.
+* Run command "npm run start" (or "node server.js"). 
+* Alternatively, if you have Nodemon *installed, run "npm run watch" (or "nodemon server.js").
+* Open 'localhost:3001' in your browser and see the site in action.
+* Enter login/logout/signup requests as you please, 
+* create a new blog post or update/delete an existing one, * or add comments to blog posts.
+* When finished, run CONTROL-C in terminal to end stop nodemon, and trash the session.
 
 Screenshots
 
