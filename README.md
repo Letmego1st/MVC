@@ -96,6 +96,15 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 
 To view this project deployed, click here.
 
+Login and create a post
+
+login/post
+
+Update/Delete your post, or comment on someone else's
+
+Update/delete/comment
+
+[![MVC Tech Blog Demo](./public/images/14-mvc-homework-demo-01.gif)](./public/images/walkthru_video2.mp4)
 
 Usage
 
@@ -116,16 +125,21 @@ After following the instructions in installation:
 
 Screenshots
 
-Login and create a post
-login/post
-Update/Delete your post, or comment on someone else's
-Update/delete/comment
-
 ## ![MVC-Tech-Blog](./public/images/Screenshot%202023-05-29%20at%2012.03.10%20PM.png)
 
 ## ![MVC-Tech-Blog](./public/images/Screenshot%202023-05-29%20at%2012.03.53%20PM.png)
 
+
 Contributors:
+
+Instruction of the UC Berkeley Web Development Bootcamp
+
+School tutors
+
+Udemy
+
+Youtube 
+
 
 
 
