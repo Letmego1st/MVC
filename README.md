@@ -1,1 +1,3 @@
-# -MVC-Challenge-Tech-Blog
+##  MVC Tech-Blog 
+
+I'm troubleshooting the file

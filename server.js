@@ -9,7 +9,7 @@ const session = require('express-session');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 const sess = {
-    secret: process.env.DB_SECRET,
+    secret: "process.env.DB_SECRET",
     cookie: {},
     resave: false,
     saveUninitialized: true,
@@ -20,8 +20,12 @@ const sess = {
     })
 };
 
+
+
 const app = express();
 const PORT = process.env.PORT || 3001;
+
+app.use(session(sess));
 
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
@@ -34,8 +38,24 @@ app.use(express.urlencoded({
 }));
 app.use(routes);
 
+
 sequelize.sync();
 
 app.listen(PORT, () => {
     console.log(`App listening on port ${PORT}!`);
 });
+
+// Configure and initialize session middleware
+// app.use(session({
+    // secret: 'your-secret-key',
+    // resave: false,
+    // saveUninitialized: true
+//   }));
+//   Note that you should replace 'your-secret-key' with an actual secret key for session encryption.
+  
+  
+  
+  
+  
+  
+  
