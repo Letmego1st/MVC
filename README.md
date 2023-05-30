@@ -92,17 +92,26 @@ WHEN I click on the logout option in the navigation
 THEN I am signed out of the site
 WHEN I am idle on the site for more than a set time
 THEN I am able to view posts and comments but I am prompted to log in again before I can add, update, or delete posts
+
+Webpage:
+
+https://secret-river-15245.herokuapp.com/
+
+Github:
+
+https://github.com/Letmego1st/MVC-Tech-Blog
+
 ```
 
-To view this project deployed, click Gif below.
+To view this project deploy demo, click Gif below.
 
-Login and create a post
+* Login and create a post
 
-login/post
+* login/post
 
-Update/Delete your post, or comment on someone else's
+* Update/Delete your post, or comment on someone else's
 
-Update/delete/comment
+* Update/delete/comment
 
 [![MVC Tech Blog Demo](./public/images/14-mvc-homework-demo-01.gif)](./public/images/walkthru_video2.mp4)
 
